@@ -40,6 +40,7 @@ html {
   grid-template-columns: 1fr;
   justify-content: space-around;
   align-items: flex-start;
+ 
 }
 
 .card-container img {
@@ -54,6 +55,7 @@ html {
   position: relative;
   box-shadow: 0 0 5px rgba(146, 140, 140, 0.363);
   z-index: 1;
+  border-radius: 20px;
 }
 
 .card-body {
