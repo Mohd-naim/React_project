@@ -1,0 +1,57 @@
+.cont {
+  height: auto;
+  display: grid;
+  place-content: center;
+  overflow-y: scroll;
+}
+.todo_app {
+    width: max-content;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: greenyellow;
+  padding: 20px;
+  overflow: auto;
+ overflow-wrap: break-word;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+input[type="text"] {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+button {
+  font-size: 20px;
+  width: 90%;
+  padding: 10px 20px;
+}
+
+.task {
+  width: 100%;
+  background: rebeccapurple;
+  border: 1px dotted salmon;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+::-webkit-scrollbar {
+  scrollbar-face-color: green;
+}
+
+.add_task{
+    position: sticky;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.task:hover{
+    box-shadow: 5px 5px 10px #fff;
+    opacity: .9;
+}
